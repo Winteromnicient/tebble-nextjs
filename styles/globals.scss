@@ -1,0 +1,85 @@
+@import 'default/color_variable';
+@import 'default/typography';
+@import 'common/general';
+@import 'common/slider';
+@import 'common/video-modal';
+@import 'common/sidebar';
+@import 'common/spacing';
+@import 'shortcode/header';
+@import 'shortcode/customcursor';
+@import 'shortcode/hero';
+@import 'shortcode/iconbox';
+@import 'shortcode/card';
+@import 'shortcode/cta';
+@import 'shortcode/funfact';
+@import 'shortcode/logolist';
+@import 'shortcode/movingtext';
+@import 'shortcode/portfolio';
+@import 'shortcode/post';
+@import 'shortcode/pricing';
+@import 'shortcode/servicelist';
+@import 'shortcode/team';
+@import 'shortcode/testimonial';
+@import 'shortcode/timeline';
+@import 'shortcode/footer';
+
+.custom-btn {
+    --bs-btn-color: #f2f2f2;
+    --bs-btn-border-color: #1E2022; 
+    --bs-btn-hover-color: #f2f2f2;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #f8f9fa;
+    --bs-btn-focus-shadow-rgb: 248,249,250;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f8f9fa;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+    background-image: url('../public/images/eclipse-btn.svg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border: 3px solid;
+    border-color: #1E2022;
+  }
+
+  *::selection {
+    background: rgba(0,254,220,.113);
+    color: rgba(81,255,217,.862);
+}
+
+.custom-arrow {
+  width: 60px;
+  height: 35px;
+  border: 2px solid ;
+  border-radius: 5px;
+  margin: 8px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-image: url(../public/images/eclipse-btn.svg);
+  background-position: center bottom;
+  border-color: #1E2022 !important;
+}
+
+.cs-social_btns.cs-style1 a {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  border: 1px solid #3a2f2f;
+  margin: 7px;
+  color: #c4c4c4;
+  background-image: url(../public/images/eclipse-btn.svg);
+}
+
+.custom-footer-text{
+  background-color: rgba(74,222,128,.2);
+  color: rgb(74 222 128);
+  padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;
+}
+
