@@ -12,20 +12,20 @@ import Spacing from '../components/Spacing';
 export default function About() {
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
+      title: 'Development Projects',
+      factNumber: '50',
     },
     {
-      title: 'Project Completed',
-      factNumber: '50K',
+      title: 'Websites Done',
+      factNumber: '75',
     },
     {
-      title: 'Team Members',
-      factNumber: '245',
+      title: 'Years of Experience',
+      factNumber: '8',
     },
     {
       title: 'Digital products',
-      factNumber: '550',
+      factNumber: '20',
     },
   ];
   return (
@@ -36,13 +36,7 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        {/* Start Page Heading Section */}
-        <PageHeading
-          title="About Us"
-          bgSrc="images/about_hero_bg.jpeg"
-          pageLinkText="About Us"
-        />
-        {/* End Page Heading Section */}
+       
 
         {/* Start About Section */}
         <Spacing lg="150" md="80" />
@@ -55,11 +49,10 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
+                  Small team Big Tasks! <br></br>This is the main factor that sets us apart from our
                   competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining. Through our years of experience,
-                  we’ve also learned that while each channel.
+                  consultancy and development services. Our team applies its wide-ranging
+                  experience to determining. We being fewer in number actually allows us to focus just on development and nothing else.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
@@ -98,8 +91,8 @@ export default function About() {
         {/* Start Fun Fact Section */}
         <Div className="container">
           <FunFact
-            title="Our fun fact"
-            subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+            title="Journey Highlights"
+            subtitle="Been working since 2015 and after a number of years of experience in different domains here are the stats."
             data={funfaceData}
           />
         </Div>
@@ -123,24 +116,26 @@ export default function About() {
             </Div>
             <Div className="col-xl-5 offset-xl-1 col-lg-6">
               <SectionHeading
-                title="Highly experienced pepole with us"
+                title="Highly experienced devs with us"
                 subtitle="Why Choose Us"
               >
                 <Spacing lg="30" md="20" />
+                <h5>Decade of Expertise:</h5>
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining. Through our years of experience,
-                  we’ve also learned that while each channel.
+                We bring a wealth of experience to the table, with over a decade of dedicated service. Our journey has been marked by continuous learning, growth, and a commitment to excellence.               
                 </p>
-                <Spacing lg="15" md="15" />
+                <Spacing lg="30" md="30" />
+                <h5>Client-Centric Approach:</h5>
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining.
+                At the heart of our success is a client-centric philosophy. We prioritize understanding your unique needs, tailoring our solutions to match your specific requirements              
                 </p>
+                <Spacing lg="30" md="30" />
+                <h5>Affordability Without Compromise:</h5>
+                <p className="cs-m0">
+                We believe that quality service shouldn't come at a premium. Our commitment to affordability is unwavering, allowing businesses of all sizes to access top-notch services without breaking the bank.                
+                </p>
+               
+                
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
                 <Spacing lg="25" md="0" />
@@ -151,7 +146,7 @@ export default function About() {
         {/* End Why Choose Section */}
 
         {/* Start Team Section */}
-        <Spacing lg="145" md="80" />
+        {/* <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
             title="Awesome team <br/>members"
@@ -160,7 +155,7 @@ export default function About() {
           />
           <Spacing lg="85" md="45" />
           <TeamSlider />
-        </Div>
+        </Div> */}
         {/* End Team Section */}
 
         {/* Start CTA Section */}

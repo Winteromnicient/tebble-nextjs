@@ -11,7 +11,7 @@ export default function TeamSlider() {
       memberImage: '/images/web_dev2.gif',
       memberName: 'Web Dev',
       memberDesignation: 'Full/Mid Stack',
-      memberLink: "/webdevelopment" ,
+      memberLink: "/category/web" ,
       memberSocial: {
         react: '/',
         html: '/',
@@ -26,7 +26,7 @@ export default function TeamSlider() {
       memberImage: '/images/web_design.gif',
       memberName: 'Websites',
       memberDesignation: 'Svelte Nextjs',
-      memberLink: "/webdesign",
+      memberLink: "/category/Web Design",
       memberSocial: {
         bootstrap: '/',
         html: '/',
@@ -40,7 +40,7 @@ export default function TeamSlider() {
       memberImage: '/images/app_dev2.gif',
       memberName: 'Mobile Applications',
       memberDesignation: 'Native / Hybrid / PWA',
-      memberLink: "/apps",
+      memberLink: "/category/Mobile App",
       memberSocial: {
         android: '/',
         appstore: '/',
@@ -53,7 +53,7 @@ export default function TeamSlider() {
       memberImage: '/images/ui_design.gif',
       memberName: 'UI / UX',
       memberDesignation: 'Figma / Sketch / XD ',
-      memberLink: "/uiux",
+      memberLink: "/category/UIUX",
       memberSocial: {
         figma: '/',
         sketch: '/',

@@ -54,7 +54,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <Link
-                        href="/#portfolio"
+                        href="/category"
                         onClick={() => setMobileToggle(false)}
                       >
                         PORTFOLIO
