@@ -47,7 +47,7 @@ export default function CategoryDetails() {
     function createCard(data, docId) {
       const cardDiv = document.createElement("div");
       cardDiv.classList.add("col-lg-4", "col-sm-6");
-      const portfolioURL = `/portfolio-details/${docId}`;
+      const portfolioURL = `/portfolio/${data.portfolio_slug}`;
 
       const cardContent = `
         <Div className="cs-team cs-style2">
@@ -55,6 +55,7 @@ export default function CategoryDetails() {
             <img src="${data.imageURL}" alt="Member">
             <Div className="cs-member_overlay"></div>
           </Div>
+          <Spacing lg="25" md="25" />
           <Div className="cs-member_info">
             <h4 className="cs-member_name mt-4"><a href="${portfolioURL}">${data.portfolio_title}</a></h4>
             <Div className="cs-member_designation" id="date">${data.portfolio_date}</Div>

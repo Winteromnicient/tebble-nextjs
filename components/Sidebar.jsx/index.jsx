@@ -61,20 +61,20 @@ export default function Sidebar() {
   ]
   const categoryData = [
     {
-      title: 'Web Develpment',
-      url:'/'
+      title: 'Web Development',
+      url:'/category/web'
     },
     {
       title: 'Web Design',
-      url:'/'
+      url:'/category/Web Design'
     },
     {
       title: 'Apps',
-      url:'/'
+      url:'/category/Mobile App'
     },
     {
       title: 'CRO Blogs',
-      url:'/'
+      url:'/category/UIUX'
     }    
   ]
   const recentPostData = [

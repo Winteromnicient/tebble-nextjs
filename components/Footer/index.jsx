@@ -21,20 +21,20 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
   const serviceMenu = [
     {
       title: 'Web Development',
-      href: '/service/service-details',
+      url:'/category/web'
     },
     {
-      title: 'Mobile Apps',
-      href: '/service/service-details',
+      title: 'Web Design',
+      url:'/category/Web Design'
     },
     {
-      title: 'UI/UX',
-      href: '/service/service-details',
+      title: 'Apps',
+      url:'/category/Mobile App'
     },
     {
-      title: 'Conversion Rate Optimisation',
-      href: '/service/service-details',
-    },
+      title: 'CRO Blogs',
+      url:'/category/UIUX'
+    }    
   ];
 
   return (

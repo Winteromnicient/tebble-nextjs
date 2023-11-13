@@ -67,7 +67,7 @@ export default function About() {
               />
               <Spacing lg="25" md="25" />
             </Div>
-            <Div className="col-lg-7">
+            {/* <Div className="col-lg-7">
               <img
                 src="/images/about_img_2.jpeg"
                 alt="About"
@@ -82,7 +82,7 @@ export default function About() {
                 className="w-100 cs-radius_15"
               />
               <Spacing lg="25" md="25" />
-            </Div>
+            </Div> */}
           </Div>
         </Div>
         <Spacing lg="75" md="55" />

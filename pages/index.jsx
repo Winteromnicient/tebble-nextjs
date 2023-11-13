@@ -61,7 +61,7 @@ export default function Home() {
       <Layout>
         {/* Start Hero Section */}
         <Hero
-          title="Hello! <br /> Meet The Creator"
+          title="Creating rich<br /> Digital Experiences"
           subtitle="Hi i am Siddhant, I create innovative solutions for corporate challenges, weaving technical prowess."
           btnText="Get a Quote"
           btnLink="/contact"
