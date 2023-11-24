@@ -16,12 +16,37 @@ export default function Hero({
 }) {
   
   useEffect(() => {
-    
-    setTimeout(async() => {
+    const removeLogo = () => {
       var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
-          shadowRoot.querySelector('#logo')?.remove(); 
-        }, 1500);
-  }, [])
+      shadowRoot.querySelector('#logo')?.remove(); 
+    };
+  
+    const observerConfig = { childList: true, subtree: true };
+  
+    const mutationCallback = (mutationsList) => {
+      mutationsList.forEach((mutation) => {
+        if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+          if (document.querySelector('spline-viewer')) {
+            removeLogo();  
+            observer.disconnect();
+          }
+        }
+      });
+    };
+  
+    // Create a MutationObserver with the callback and configuration
+    const observer = new MutationObserver(mutationCallback);
+  
+    // Start observing the document
+    observer.observe(document.documentElement, observerConfig);
+  
+    // Cleanup function
+    return () => {
+      // Disconnect the observer when the component unmounts
+      observer.disconnect();
+    };
+  }, []); // Empty dependency array to run the effect only once
+  
   
   return (
     <Div
@@ -50,7 +75,7 @@ export default function Hero({
              
             </Div>
           </Div>
-          <Div class="col-xl-6 order-sm-2 d-flex justify-content-center align-items-right">
+          <Div class="col-xl-6 order-sm-2 d-flex d-none justify-content-center align-items-right d-lg-block">
           <Div class="spline-viewer-wrapper ">
             <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.465/build/spline-viewer.js"></script>
             <spline-viewer hint loading-anim url="https://prod.spline.design/jaPO-yUPwBfzXkEP/scene.splinecode"></spline-viewer>

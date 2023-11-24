@@ -13,19 +13,19 @@ export default function About() {
   const funfaceData = [
     {
       title: 'Development Projects',
-      factNumber: '50',
+      factNumber: '150',
     },
     {
       title: 'Websites Done',
-      factNumber: '75',
+      factNumber: '175',
     },
     {
       title: 'Years of Experience',
-      factNumber: '8',
+      factNumber: '10',
     },
     {
       title: 'Digital products',
-      factNumber: '20',
+      factNumber: '45',
     },
   ];
   return (
@@ -52,7 +52,7 @@ export default function About() {
                   Small team Big Tasks! <br></br>This is the main factor that sets us apart from our
                   competition and allows us to deliver a specialist business
                   consultancy and development services. Our team applies its wide-ranging
-                  experience to determining. We being fewer in number actually allows us to focus just on development and nothing else.
+                  experience to the fullest. We being a small and agile team actually allows us to focus just on development and nothing else.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
@@ -61,7 +61,7 @@ export default function About() {
             </Div>
             <Div className="col-lg-5 offset-xl-2">
               <img
-                src="/images/about_img_1.jpeg"
+                src="/images/tebble-about.svg"
                 alt="About"
                 className="w-100 cs-radius_15"
               />
@@ -92,7 +92,7 @@ export default function About() {
         <Div className="container">
           <FunFact
             title="Journey Highlights"
-            subtitle="Been working since 2015 and after a number of years of experience in different domains here are the stats."
+            subtitle="Embarking on a decade-long journey through the ever-evolving realms of technology"
             data={funfaceData}
           />
         </Div>
@@ -106,7 +106,7 @@ export default function About() {
               <Div className="cs-image_layer cs-style1">
                 <Div className="cs-image_layer_in">
                   <img
-                    src="/images/about_img_4.jpeg"
+                    src="/images/tebble-10.svg"
                     alt="About"
                     className="w-100 cs-radius_15"
                   />
