@@ -60,11 +60,7 @@ export default function Header({ variant }) {
                         PORTFOLIO
                       </Link>                     
                     </li>                   
-                    <li>
-                      <Link href="/blog" onClick={() => setMobileToggle(false)}>
-                        Blog
-                      </Link>                     
-                    </li>
+                    
                     <li>
                       <Link href="/contact" onClick={() => setMobileToggle(false)}>
                         Contact
@@ -84,7 +80,7 @@ export default function Header({ variant }) {
                   </span>
                 </Div>
               </Div>
-              <span class="btn custom-btn d-lg-block" style={{ display: 'none' }}>For Entrepreneurs                  
+              <span className="btn custom-btn d-lg-block" style={{ display: 'none' }}>For Entrepreneurs                  
                 </span>
             </Div>
           </Div>

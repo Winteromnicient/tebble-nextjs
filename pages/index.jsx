@@ -133,7 +133,7 @@ export default function Home() {
         {/* End Awards Section */}   
 
         {/* Start Blog Section */}
-        <Spacing lg="150" md="80" />
+        {/* <Spacing lg="150" md="80" />
         <Div className="cs-shape_wrap_4">
           <Div className="cs-shape_4"></Div>
           <Div className="cs-shape_4"></Div>
@@ -155,7 +155,7 @@ export default function Home() {
               </Div>
             </Div>
           </Div>
-        </Div>
+        </Div> */}
         {/* End Blog Section */}
 
         {/* Start MovingText Section */}

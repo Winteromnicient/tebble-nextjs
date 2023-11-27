@@ -117,9 +117,9 @@ export default function Sidebar() {
       <Div className="cs-sidebar_item">
         <SideMenuWidget title='Categories' data={categoryData}/>
       </Div>
-      <Div className="cs-sidebar_item">
+      {/* <Div className="cs-sidebar_item">
         <RecentPost title='Archives' data={recentPostData}/>
-      </Div>    
+      </Div>     */}
      
     </>
   )

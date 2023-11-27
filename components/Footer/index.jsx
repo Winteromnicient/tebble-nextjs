@@ -67,7 +67,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <Newsletter
                   title="Subscribe"
                   subtitle="Subscribe to the exclusive newsletters on CRO & stay updated on dopest tech!"
-                  placeholder="example@gmail.com"
+                  placeholder="Enter Your Email"
                 />
               </Div>
             </Div>
