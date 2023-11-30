@@ -57,6 +57,7 @@ export default function PortfolioDetails() {
   const detailimage2 = portfolioData ? portfolioData.portfolio_detailimage2 : "Demo detailimage1";
   const testimonial = portfolioData ? portfolioData.portfolio_testimonial : "Demo testimonial";
   const clientname = portfolioData ? portfolioData.portfolio_clientname : "Demo clientname";
+  const link = portfolioData ? portfolioData.portfolio_link : "Demo link";
   
  // Function to render HTML content safely
  const createMarkup = (content) => {
@@ -135,6 +136,16 @@ export default function PortfolioDetails() {
                     Client:
                   </h3>
                   <p className="cs-m0">{client}</p>
+                  <Spacing lg="30" md="30" />
+                </Div>
+                <Div className="col-4">
+                {portfolioData && portfolioData.portfolio_link && (
+                <div className="custom-a">
+                   <a href={portfolioData.portfolio_link} target="_blank" rel="noopener noreferrer" id="portfolio_link">
+                 <span className="custom-span">Link</span>
+                   </a>
+               </div>
+                  )}
                   <Spacing lg="30" md="30" />
                 </Div>
               </Div>

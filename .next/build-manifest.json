@@ -27,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/category": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/category.js"
+    ],
     "/category/[categoryId]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/category/[categoryId].js"
+    ],
+    "/contact": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact.js"
     ],
     "/portfolio/[portfolioId]": [
       "static/chunks/webpack.js",
